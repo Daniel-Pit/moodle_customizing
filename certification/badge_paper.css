@@ -1,0 +1,285 @@
+   .banner-container {
+       display: flex;
+       flex-direction: column;
+       padding: 10px 10px 10px 10px;
+       background-color: #ffffff;
+       position: relative;
+       z-index: 1;
+       box-sizing: inherit;
+       display: block;
+       overflow: hidden;
+       width: 100%;
+       height: 100%;
+   }
+   
+   .banner-container .content {
+       position: relative;
+       display: flex;
+       flex-direction: column-reverse;
+       align-items: center;
+       justify-content: center;
+   }
+   
+   .banner {
+       display: flex;
+       justify-content: center;
+       align-items: flex-start;
+       width: 100%;
+       padding: 1 px;
+       overflow: hidden;
+   }
+   
+   @media (min-width: 500px) {
+       .banner {
+           width: 75%;
+       }
+   }
+   
+   .canvas {
+       width: 540px;
+       height: 417.273px;
+       margin: 0px;
+   }
+   
+   .certificate .certificate-inner .certificate-bg img {
+       width: 100%;
+       height: 100%;
+   }
+   
+   img {
+       max-width: 100%;
+       height: auto;
+   }
+   
+   .certificate.default.us-letter.landscape .certificate-inner {
+       width: 11in;
+       height: 8.5in;
+       font-size: .0139593909in;
+   }
+   
+   .certificate .certificate-inner {
+       display: block;
+       position: absolute;
+       pointer-events: none;
+       overflow: hidden;
+       font-family: 'Source Sans Pro', sans-serif;
+       background-color: #fff;
+   }
+   
+   .certificate .certificate-inner .certificate-bg {
+       position: absolute;
+       top: 0;
+       right: 0;
+       bottom: 0;
+       left: 0;
+       background-position: bottom;
+       background-size: 100% 100%;
+       background-repeat: no-repeat;
+   }
+   
+   .certificate .certificate-inner {
+       transform-origin: top left;
+   }
+   
+   .certificate {
+       position: relative;
+       width: 100%;
+       height: 100%;
+       background-color: #eee;
+   }
+   
+   .certificate-block {
+       position: absolute;
+       text-align: center;
+       font-size: 14em;
+       line-height: 1.42;
+       color: #333;
+   }
+   
+   .certificate-block.italic {
+       font-style: italic;
+   }
+   
+   .certificate-block.top1 {
+       top: 12%;
+       margin-left: 0px;
+       margin-right: 0px;
+       width: 100%;
+       font-family: 'Orbitron', sans-serif;
+       font-weight: 900;
+       font-size: 24em;
+       text-align: center;
+       color: #231f20;
+       z-index: 15;
+   }
+   
+   .certificate-block.italic.top2 {
+       top: 24%;
+       margin-left: 0px;
+       margin-right: 0px;
+       width: 100%;
+       font-family: 'Lucida Calligraphy';
+       font-weight: 900;
+       font-size: 40em;
+       text-align: center;
+       color: rgb(0, 0, 0);
+       z-index: 14;
+   }
+   
+   .certificate-block.top3 {
+       top: 42%;
+       margin-left: 0px;
+       margin-right: 0px;
+       width: 100%;
+       font-family: 'Calibri';
+       font-weight: 400;
+       font-size: 14em;
+       text-align: center;
+       color: rgb(0, 0, 0);
+       z-index: 13;
+   }
+   
+   .certificate-block.top4 {
+       top: 44.5%;
+       margin-left: 0px;
+       margin-right: 0px;
+       width: 100%;
+       font-family: 'Arial';
+       font-weight: 600;
+       font-size: 48em;
+       text-align: center;
+       color: #0a71ff;
+       z-index: 12;
+   }
+   
+   .certificate-block.top5 {
+       top: 56%;
+       left: 15%;
+       margin-left: 0px;
+       margin-right: 0px;
+       width: 70%;
+       font-family: 'Calibri';
+       font-weight: 400;
+       font-size: 14em;
+       text-align: center;
+       color: rgb(0, 0, 0);
+       z-index: 11;
+   }
+   
+   .certificate-block.top6 {
+       top: 62.7%;
+       margin-left: 0px;
+       margin-right: 0px;
+       width: 100%;
+       font-family: 'Arial';
+       font-weight: 400;
+       font-size: 48em;
+       text-align: center;
+       color: rgb(0, 0, 0);
+       z-index: 10;
+   }
+   
+   .certificate-block.top7 {
+       top: 74%;
+       margin-left: 0px;
+       margin-right: 0px;
+       width: 100%;
+       font-family: 'Calibri';
+       font-weight: 400;
+       font-size: 14em;
+       text-align: center;
+       color: rgb(0, 0, 0);
+       z-index: 9;
+   }
+   
+   .certificate-block.top8 {
+       top: 77.5%;
+       margin-left: 0px;
+       margin-right: 0px;
+       width: 100%;
+       font-family: 'Calibri';
+       font-weight: 400;
+       font-size: 14em;
+       text-align: center;
+       color: rgb(0, 0, 0);
+       z-index: 8;
+   }
+   
+   .certificate-block.top9 {
+       top: 85%;
+       left: 10%;
+       margin-left: 0px;
+       margin-right: 0px;
+       width: 20%;
+       font-family: 'Arial';
+       font-weight: 600;
+       font-size: 14em;
+       text-align: center;
+       color: rgb(0, 0, 0);
+       z-index: 7;
+   }
+   
+   .certificate-block.top10 {
+       top: 88.7%;
+       left: 10%;
+       margin-left: 0px;
+       margin-right: 0px;
+       width: 20%;
+       font-family: 'Calibri';
+       font-weight: 400;
+       font-size: 12em;
+       text-align: center;
+       color: rgb(0, 0, 0);
+       z-index: 6;
+   }
+   
+   .certificate-block.top11 {
+       top: 85%;
+       left: 62%;
+       margin-left: 0px;
+       margin-right: 0px;
+       width: 30%;
+       font-family: 'Arial';
+       font-weight: 600;
+       font-size: 14em;
+       text-align: left;
+       color: rgb(0, 0, 0);
+       z-index: 5;
+   }
+   
+   .certificate-block.top12 {
+       top: 88.7%;
+       left: 62%;
+       margin-left: 0px;
+       margin-right: 0px;
+       width: 30%;
+       font-family: 'Calibri';
+       font-weight: 400;
+       font-size: 12em;
+       text-align: left;
+       color: rgb(0, 0, 0);
+       z-index: 4;
+   }
+   
+   hr {
+       border: none;
+       border-top: 1px solid black;
+   }
+   
+   .line1 {
+       top: 86.5%;
+       left: 12.25%;
+       margin-left: 0px;
+       margin-right: 0px;
+       width: 15.5%;
+       z-index: 3;
+   }
+   
+   .line2 {
+       top: 86.5%;
+       left: 62%;
+       margin-left: 0px;
+       margin-right: 0px;
+       width: 25.75%;
+       z-index: 2;
+   }

@@ -1,0 +1,10 @@
+RewriteEngine On 
+RewriteRule ^(.*)/?users/([A-Za-z][A-Za-z0-9_]*)/badges/?$ http://localhost/certification/publicinfo.php?username=$2 [L]
+
+RewriteEngine On 
+RewriteRule ^(.*)/?badges/([A-F0-9]{12})/?$ http://localhost/certification/publicbadge.php?token=$2 [L]
+
+RewriteEngine On 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]

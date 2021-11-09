@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f83413d5-8c6b-4b7b-bf13-c30f67d50ea4" name="PHP" url="http://localhost">
+        <fileTransfer mountedRoot="D:\JYH\TechStudio\moodle" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
